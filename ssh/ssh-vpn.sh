@@ -201,7 +201,7 @@ END
 echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/dropbear restart
-cat> /etc/funny/baner.conf << END
+cat> /etc/funny/banner.conf << END
 <br>
 <font color="blue"><b>===============================</br></font><br>
 <font color="red"><b>********  Rerechan02  ********</b></font><br>
