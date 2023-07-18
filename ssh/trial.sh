@@ -40,7 +40,6 @@ echo -e "Payload Ws   => GET wss://$(cat /etc/xray/domain)/ HTTP/1.1[crlf]Host: 
 echo -e "══════════════════════════"                 
 echo -e "     Expired => $exp"
 echo -e "══════════════════════════"                
-fi
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
