@@ -5,7 +5,7 @@ export CHATID="-1001682711013"
 export KEY="6187251915:AAH_6YqHWpElw-S7_n5208ibAEvHWshk6jg"
 export TIME="10"
 export URL="https://api.telegram.org/bot$KEY/sendMessage"
-IP=$(wget -qO- ipinfo.io/ip);
+IP=$(curl ipinfo.io/ip);
 domain=$(cat /etc/xray/domain)
 date=$(date +"%Y-%m-%d")
 
@@ -13,7 +13,7 @@ date=$(date +"%Y-%m-%d")
 url_izin='https://raw.githubusercontent.com/Rerechan02/iziznscript/main/ip'
 
 # Mendapatkan IP VPS saat ini
-ip_vps=$(curl -s ifconfig.me)
+ip_vps=$(curl ipinfo.io)
 
 # Mendapatkan isi file izin.txt dari URL
 izin=$(curl -s "$url_izin")
