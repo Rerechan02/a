@@ -13,7 +13,7 @@ date=$(date +"%Y-%m-%d")
 url_izin='https://raw.githubusercontent.com/Rerechan02/iziznscript/main/ip'
 
 # Mendapatkan IP VPS saat ini
-ip_vps=$(curl ipinfo.io)
+ip_vps=$(curl ipinfo.io/ip)
 
 # Mendapatkan isi file izin.txt dari URL
 izin=$(curl -s "$url_izin")
