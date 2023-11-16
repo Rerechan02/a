@@ -1,8 +1,8 @@
 #!/bin/bash
 DATE2=$(date -R | cut -d " " -f -5)
 # BOT INFORMATION
-export CHATID="-1001682711013"
-export KEY="6187251915:AAH_6YqHWpElw-S7_n5208ibAEvHWshk6jg"
+export CHATID="6389176425"
+export KEY="6230907878:AAExag4j8lRsJbMdAIv6T9STI1g6kp_Vq68"
 export TIME="10"
 export URL="https://api.telegram.org/bot$KEY/sendMessage"
 IP=$(curl ipinfo.io/ip);
