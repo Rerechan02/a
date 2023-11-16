@@ -2,7 +2,9 @@
 #FN
 #RERECHAN02
 #indo-ssh.com
-# =========================================
+#
+xp
+clear =========================================
 # OS Uptime
 uptime="$(uptime -p | cut -d " " -f 2-10)"
 DATE2=$(date -R | cut -d " " -f -5)
