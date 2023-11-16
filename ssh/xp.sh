@@ -53,7 +53,7 @@ done
 systemctl restart xray
 
 #----- Auto Remove Trojan Go
-data=( `cat /etc/trojan-go/config.json | grep '^#!' | cut -d ' ' -f 2 | sort | uniq`);
+data=( `cat /etc/trojan-go/config.json | grep '^###' | cut -d ' ' -f 2 | sort | uniq`);
 now=`date +"%Y-%m-%d"`
 for user in "${data[@]}"
 do
